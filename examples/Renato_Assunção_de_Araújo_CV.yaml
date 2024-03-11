@@ -1,0 +1,162 @@
+cv:
+  name: Renato Assunção de Araújo
+  location: Brazil
+  email: renatoassuncaodearaujo@gmail.com
+  phone: +55-62-98161-0176
+  social_networks:
+    - network: LinkedIn
+      username: renatoaraujo
+
+    - network: GitHub
+      username: RenatoAAraujo
+  sections:
+    summary:
+      - Software engineer with 6+ years of experience, and eager to keep learning. I have expertise
+        in software development, specializing in the development of Python solutions. Familiar with
+        working with the best industry practices, such as microservices, monitoring, scalability,
+        CI/CD, containerization, automated testing. Professionally, I have created and maintained
+        projects that were built using DDD, clean and REST architectures. The project that I take
+        most pride is Churn-rate AI model that was built from scratch, ETL pipelines and modelling.
+    education:
+      - start_date: 2016-01
+        end_date: 2021-12
+        institution: Federal University Of Goiás (UFG)
+        area: Statistics
+        degree: BS
+
+      - start_date: 2021-01
+        end_date: 2023-12
+        institution: Estácio
+        area: System Analysis and Development
+        degree: BS
+    experience:
+      - start_date: 2022
+        highlights:
+          - Helped deliver the CMA app, that largely automated the company's user support.
+          - Lowered costs by implementing open source solutions for CI/CD and release monitoring.
+          - Contributed to the migration of legacy code into the curent best technologies.
+          # - "Helped design and maintain APIs that support the CMA app, that includes: Development of
+          #   web applications using Flask and Fastapi, bug fixes, develop new features, third-party API
+          #   integrations, refactoring legacy code, deploy and monitoring, build test suites using cypress
+          #   and code reviewing, documenting our environments."
+        location: New York, USA
+        # company: [Altice USA](https://www.alticeusa.com/)
+        company: Altice USA
+        position: Python Software Engineer
+
+      - start_date: 2021
+        end_date: 2022
+        highlights:
+          - Helped deliver the product that made Provu's profitable.
+          - Contributed to integrations that made the company's client base more than double.
+          # - "I was a member of Provu's integrations team, Provu's solution was to provide personal credit
+          #   options to customers (our own and market competitors throughout integrations). The
+          #   platform was composed of horizontally distributed microservices, Kubernetes and terraform,
+          #   deployed on AWS. My team was not only responsible for creating third-party integrations, but
+          #   also creating internal APIs to distribute solutions built by other teams company-wide."
+        location: São Paulo, BR
+        # company: [Provu](https://provu.com.br/)
+        company: Provu
+        position: Backend Engineer
+
+      - start_date: 2020
+        end_date: 2021
+        highlights:
+          - Implemented agile methodologies into the company's workflow.
+          - Created the onboarding process for new developers.
+          - Created DevOps team.
+          - Lead backend team as the tech leader.
+          # - "Backend Dev Team tech leader and developer. Helped develop highly scalable and
+          #   optimized solutions. I helped to structure the onboarding for new developers and agile
+          #   processes"
+        location: Goiás, BR
+        # company: [Sensi Connect](https://www.sensiconnect.io/)
+        company: Sensi Connect
+        position: Backend Engineer & Tech lead
+
+      - start_date: 2020
+        end_date: 2021
+        highlights:
+          - Founding member and leader of the AI team
+          - Created the company's first profitable AI product.
+          - Implemented data-driven decision-making practices.
+          # - "I started out as a data Analyst and quickly was offered a position as the founding member of
+          #   the AI Team. I was responsible for comprehending business strategies along with the
+          #   managers and our ERP clients, doing data processing including implementing Machine
+          #   Learning algorithms and other resources that support the decision-making process at the
+          #   strategic and tactical organization level."
+        location: Goiás, BR
+        # company: [Pacto Soluções](https://sistemapacto.com.br/)
+        company: Pacto Soluções
+        position: Data Scientist & Data Analyst
+    projects:
+      - date: "2021"
+        highlights:
+          - Develop an AI model that could predict churn rate, in its release the model averaged ~75% success rate. With this, our clients were able to make proactive choices, decreasing churn rate and increasing revenue.
+          - Used Python, Keras and TensorFlow.
+        name: Pacto AI
+    # additional_experience_and_awards:
+    #   - label: Instructor (2003 - 2005)
+    #     details: Taught two full-credit Computer Science courses.
+    technologies:
+      - label: Programming languages
+        details: Python, JavaScript (Node.js), R
+      - label: Python web frameworks
+        details: Flask, Fastapi, Django
+      - label: Python AI frameworks
+        details: TensorFlow, Keras, Pandas, NumPy
+      - label: Databases
+        details: MySQL, PostgreSQL, MongoDB, BigQuery, Microsoft SQL server
+      - label: Architectures
+        details: REST, Clean, DDD
+      - label: Testing tools
+        details: pytest, cypress, testthat, pylint
+      - label: ORM & Data Management
+        details: sqlalchemy, marshmallow, alembic
+      - label: Cloud experience
+        details: AWS, GCP
+      - label: Security implementations
+        details: JWT, Oauth2
+      - label: Version control
+        details: Git, SVN
+      - label: CI/CD
+        details: Jenkins, GitHub, GitLab, Bitbucket
+      - label: Messaging
+        details: RabbitMQ, Celery
+      - label: Issue tracking
+        details: Jira, Trello, Assembla
+      - label: Agile methodologies
+        details: Scrum, Kanban
+design:
+  theme: classic
+  font_size: 10pt
+  page_size: letterpaper
+  color: "#004f90"
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  show_last_updated_date: true
+  header_font_size: 30 pt
+  text_alignment: justified
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  show_timespan_in:
+    - Experience
