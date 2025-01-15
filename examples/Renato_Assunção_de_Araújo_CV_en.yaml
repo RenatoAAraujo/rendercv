@@ -6,12 +6,11 @@ cv:
   social_networks:
     - network: LinkedIn
       username: renatoaraujo
-
     - network: GitHub
       username: RenatoAAraujo
   sections:
     summary:
-      - Software engineer with 6+ years of experience, and eager to keep learning. I have expertise
+      - Software engineer with 7+ years of experience, and eager to keep learning. I have expertise
         in software development, specializing in the development of Python solutions. Familiar with
         working with the best industry practices, such as microservices, monitoring, scalability,
         CI/CD, containerization, automated testing. Professionally, I have created and maintained
@@ -23,14 +22,25 @@ cv:
         institution: Federal University Of Goiás (UFG)
         area: Statistics
         degree: BS
-
       - start_date: 2021-01
         end_date: 2023-12
         institution: Estácio
         area: System Analysis and Development
         degree: BS
     experience:
-      - start_date: 2022
+      - start_date: 2024-07
+        highlights:
+          - Contributed to the design and development of Python microservices responsible for real-time user behavior analytics.
+          - Improved system scalability by restructuring legacy components into containerized services on Docker.
+          - Collaborated with cross-functional teams to implement advanced monitoring and security features, leveraging Splunk and Sentry for proactive incident management.
+          - Developed and customized customer-specific plugins, extending Teramind’s analytics capabilities to integrate seamlessly with a variety of third-party tools.
+        location: Cheyenne, USA
+        # company: [Teramind](https://www.teramind.co/)
+        company: Teramind
+        position: Python Software Engineer
+
+      - start_date: 2022-07
+        end_date: 2024-07
         highlights:
           - Helped deliver the CMA app, that largely automated the company's user support.
           - Lowered costs by implementing open source solutions for CI/CD and release monitoring.
@@ -44,8 +54,8 @@ cv:
         company: Altice USA
         position: Python Software Engineer
 
-      - start_date: 2021
-        end_date: 2022
+      - start_date: 2021-12
+        end_date: 2022-07
         highlights:
           - Helped deliver the product that made Provu's profitable.
           - Contributed to integrations that made the company's client base more than double.
@@ -59,8 +69,8 @@ cv:
         company: Provu
         position: Backend Engineer
 
-      - start_date: 2020
-        end_date: 2021
+      - start_date: 2020-05
+        end_date: 2021-12
         highlights:
           - Implemented agile methodologies into the company's workflow.
           - Created the onboarding process for new developers.
@@ -74,8 +84,8 @@ cv:
         company: Sensi Connect
         position: Backend Engineer & Tech lead
 
-      - start_date: 2017
-        end_date: 2020
+      - start_date: 2017-04
+        end_date: 2020-04
         highlights:
           - Founding member and leader of the AI team
           - Created the company's first profitable AI product.
@@ -106,57 +116,59 @@ cv:
       - label: Python AI frameworks
         details: TensorFlow, Keras, Pandas, NumPy
       - label: Databases
-        details: MySQL, PostgreSQL, MongoDB, BigQuery, Microsoft SQL server
+        details: MySQL, PostgreSQL, ClickHouse, MongoDB, BigQuery, Microsoft SQL server
       - label: Architectures
         details: REST, Clean, DDD
       - label: Testing tools
         details: pytest, cypress, testthat, pylint
       - label: ORM & Data Management
-        details: sqlalchemy, marshmallow, alembic
+        details: sqlalchemy, marshmallow, alembic, pylance
       - label: Cloud experience
-        details: AWS, GCP
-      - label: Security implementations
-        details: JWT, Oauth2
+        details: AWS, GCP, Azure
+      - label: Containerization
+        details: Docker
       - label: Version control
         details: Git, SVN
       - label: CI/CD
         details: Jenkins, GitHub, GitLab, Bitbucket
+      - label: Monitoring
+        details: Splunk, Sentry, New Relic
       - label: Messaging
         details: RabbitMQ, Celery
       - label: Issue tracking
         details: Jira, Trello, Assembla
       - label: Agile methodologies
         details: Scrum, Kanban
-design:
-  theme: classic
-  font_size: 10pt
-  page_size: letterpaper
-  color: "#004f90"
-  disable_page_numbering: false
-  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  show_last_updated_date: true
-  header_font_size: 30 pt
-  text_alignment: justified
-  margins:
-    page:
-      top: 2 cm
-      bottom: 2 cm
-      left: 2 cm
-      right: 2 cm
-    section_title:
-      top: 0.3 cm
-      bottom: 0.2 cm
-    entry_area:
-      left_and_right: 0.2 cm
-      vertical_between: 0.2 cm
-      date_and_location_width: 4.1 cm
-    highlights_area:
-      top: 0.10 cm
-      left: 0.4 cm
-      vertical_between_bullet_points: 0.10 cm
-    header:
-      vertical_between_name_and_connections: 0.3 cm
-      bottom: 0.3 cm
-      horizontal_between_connections: 0.5 cm
-  show_timespan_in:
-    - Experience
+# design:
+#   theme: classic
+#   font_size: 10pt
+#   page_size: letterpaper
+#   color: "#004f90"
+#   disable_page_numbering: false
+#   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+#   show_last_updated_date: true
+#   header_font_size: 30 pt
+#   text_alignment: justified
+#   margins:
+#     page:
+#       top: 2 cm
+#       bottom: 2 cm
+#       left: 2 cm
+#       right: 2 cm
+#     section_title:
+#       top: 0.3 cm
+#       bottom: 0.2 cm
+#     entry_area:
+#       left_and_right: 0.2 cm
+#       vertical_between: 0.2 cm
+#       date_and_location_width: 4.1 cm
+#     highlights_area:
+#       top: 0.10 cm
+#       left: 0.4 cm
+#       vertical_between_bullet_points: 0.10 cm
+#     header:
+#       vertical_between_name_and_connections: 0.3 cm
+#       bottom: 0.3 cm
+#       horizontal_between_connections: 0.5 cm
+#   show_timespan_in:
+#     - Experience
