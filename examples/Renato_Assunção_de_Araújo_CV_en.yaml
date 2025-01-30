@@ -122,7 +122,7 @@ cv:
       - label: Testing tools
         details: pytest, cypress, testthat, pylint
       - label: ORM & Data Management
-        details: sqlalchemy, marshmallow, alembic, pylance
+        details: sqlalchemy, marshmallow, alembic, pydantic
       - label: Cloud experience
         details: AWS, GCP, Azure
       - label: Containerization
