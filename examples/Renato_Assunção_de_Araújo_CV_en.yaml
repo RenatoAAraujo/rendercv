@@ -32,7 +32,7 @@ cv:
       - start_date: 2024-07
         highlights:
           - Spearheaded the URL classification project, improving the accuracy and efficiency of content categorization.
-          - Contributed to the design and development of Python microservices responsible for real-time user behavior analytics.
+          - Contributed to the design and development of Python microservices (FastAPI,Flask, PostgreSQL) deployed on AWS, responsible for real-time user behavior analytics.
           - Improved system scalability by restructuring legacy components into containerized services on Docker.
           - Collaborated with cross-functional teams to implement advanced monitoring and security features, leveraging Splunk and Sentry for proactive incident management.
           - Developed and customized customer-specific plugins, extending Teramind’s analytics capabilities to integrate seamlessly with a variety of third-party tools.
@@ -46,6 +46,7 @@ cv:
         end_date: 2024-07
         highlights:
           - Helped deliver the CMA app, that largely automated the company's user support.
+          - Built and maintained the Flask and FastAPI services behind it, backed by PostgreSQL and deployed on AWS.
           - Lowered costs by implementing open source solutions for CI/CD and release monitoring.
           - Contributed to the migration of legacy code into the current best technologies.
           # - "Helped design and maintain APIs that support the CMA app, that includes: Development of
@@ -62,6 +63,7 @@ cv:
         highlights:
           - Helped deliver the product that made Provu profitable.
           - Contributed to integrations that made the company's client base more than double.
+          - Developed third-party integrations and internal APIs as microservices deployed on AWS.
           # - "I was a member of Provu's integrations team, Provu's solution was to provide personal credit
           #   options to customers (our own and market competitors throughout integrations). The
           #   platform was composed of horizontally distributed microservices, Kubernetes and terraform,
@@ -79,6 +81,7 @@ cv:
           - Created the onboarding process for new developers.
           - Created the DevOps team.
           - Led the backend team as tech lead.
+          - Built scalable backend APIs with Flask and PostgreSQL, deployed on AWS.
           # - "Backend Dev Team tech leader and developer. Helped develop highly scalable and
           #   optimized solutions. I helped to structure the onboarding for new developers and agile
           #   processes"
@@ -111,7 +114,7 @@ cv:
       - date: "2021"
         highlights:
           - Developed an AI model that could predict churn rate, in its release the model averaged ~75% success rate. With this, our clients were able to make proactive choices, decreasing churn rate and increasing revenue.
-            - Used Python, Keras, and TensorFlow.
+          - Used Python, Django, PostgreSQL, Keras, and TensorFlow.
         name: Pacto AI
     # additional_experience_and_awards:
     #   - label: Instructor (2003 - 2005)
